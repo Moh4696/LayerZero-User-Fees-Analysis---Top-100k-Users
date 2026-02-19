@@ -2,8 +2,7 @@
 Query 1: User leaderboard ranked by total fees paid
 Shows all-time fees, pre-snapshot fees, and post-snapshot fees
 
---
-WITH user_fees AS (
+-- WITH user_fees AS (
     SELECT 
         addr_from AS user_address
         , COUNT(*) AS total_transactions
