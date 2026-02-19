@@ -1,6 +1,6 @@
 # LayerZero User Fees-Analysis Top 100k Users
 # Query 1: User leaderboard ranked by total fees paid
-# Shows all-time fees, pre-snapshot fees, and post-snapshot fees
+Shows all-time fees, pre-snapshot fees, and post-snapshot fees
 
 WITH user_fees AS (
     SELECT 
